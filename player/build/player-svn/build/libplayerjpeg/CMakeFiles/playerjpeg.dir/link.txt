@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC -O3 -DNDEBUG   -shared -Wl,-soname,libplayerjpeg.so.2.2 -o libplayerjpeg.so.2.2.0 CMakeFiles/playerjpeg.dir/playerjpeg.o -ljpeg -Wl,-rpath,/player/lib 

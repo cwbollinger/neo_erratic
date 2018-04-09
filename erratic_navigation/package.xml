@@ -1,0 +1,23 @@
+<package>
+    <name>erratic_navigation</name>
+    <version>0.3.3</version>
+    <description>
+        This package contains configuration and launch files necessary to run
+        ROS navigation stack on the Erratic robot.
+    </description>
+
+    <maintainer email="todo@todo.com">Antons Rebguns</maintainer>
+    <license>BSD</license>
+    <!-- <review status="unreviewed" notes=""/> -->
+    <url>http://ros.org/wiki/erratic_navigation</url>
+    <author>Antons Rebguns</author>
+
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <run_depend>move_base</run_depend>
+    <run_depend>amcl</run_depend>
+    <run_depend>gmapping</run_depend>
+    <run_depend>topic_tools</run_depend>
+</package>
+

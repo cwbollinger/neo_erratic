@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../libplayercore/error.h
+stdio.h
+-
+errno.h
+-
+
+/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/libplayercore/error.c
+stdarg.h
+-
+libplayercore/error.h
+-
+

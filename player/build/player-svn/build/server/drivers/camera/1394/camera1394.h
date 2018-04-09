@@ -1,0 +1,2 @@
+/* #undef HAVE_LIBRAW1394 */
+#define DC1394_DMA_SETUP_CAPTURE_ARGS 

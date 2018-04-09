@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG   -shared -Wl,-soname,liburglaser_standalone.so.2.2 -o liburglaser_standalone.so.2.2.0 CMakeFiles/urglaser_standalone.dir/urg_laser.o -Wl,-rpath,/player/lib 

@@ -1,0 +1,35 @@
+<package>
+  <name>erratic_robot</name>
+  <version>0.3.3</version>
+  <description>
+      This metapackage contains packages that are used to interface with Videre
+      Erratic mobile robot. These include the hardware interface driver,
+      URDF description, 3D meshes, navigation stack configuration and
+      launch files and keyboard teleoperation node.
+  </description>
+
+  <maintainer email="todo@todo.com">Antons Rebguns</maintainer>
+  <license>BSD</license>
+  <url>http://ros.org/wiki/erratic_robot</url>
+  <author>Antons Rebguns</author>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>ros</run_depend>
+  <run_depend>ros_comm</run_depend>
+  <run_depend>robot_model</run_depend>
+  <run_depend>xacro</run_depend>
+  <run_depend>gazebo_ros</run_depend>
+  <run_depend>navigation</run_depend>
+  <run_depend>laser_pipeline</run_depend>
+  <run_depend>slam_gmapping</run_depend>
+  <run_depend>geometry</run_depend>
+  <run_depend>common_msgs</run_depend>
+  <run_depend>pr2_simulator</run_depend>
+
+
+  <export> 
+    <metapackage />
+  </export>
+</package>

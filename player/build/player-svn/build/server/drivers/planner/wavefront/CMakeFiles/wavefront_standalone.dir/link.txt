@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC -O3 -DNDEBUG   -shared -Wl,-soname,libwavefront_standalone.so.2.2 -o libwavefront_standalone.so.2.2.0 CMakeFiles/wavefront_standalone.dir/plan.o CMakeFiles/wavefront_standalone.dir/plan_plan.o CMakeFiles/wavefront_standalone.dir/plan_waypoint.o CMakeFiles/wavefront_standalone.dir/heap.o CMakeFiles/wavefront_standalone.dir/plan_control.o -Wl,-rpath,/player/lib 

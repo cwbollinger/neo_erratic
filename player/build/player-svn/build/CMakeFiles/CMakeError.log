@@ -1,0 +1,565 @@
+Determining if files dns_sd.h exist failed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3393926561/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3393926561.dir/build.make CMakeFiles/cmTryCompileExec3393926561.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3393926561.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3393926561.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: dns_sd.h: No such file or directory
+ #include <dns_sd.h>
+                    ^
+compilation terminated.
+make[3]: *** [CMakeFiles/cmTryCompileExec3393926561.dir/CheckIncludeFiles.c.o] Error 1
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec3393926561/fast] Error 2
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+Source:
+/* */
+#include <dns_sd.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/filio.h exist failed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3680345274/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3680345274.dir/build.make CMakeFiles/cmTryCompileExec3680345274.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3680345274.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3680345274.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:23: fatal error: sys/filio.h: No such file or directory
+ #include <sys/filio.h>
+                       ^
+compilation terminated.
+make[3]: *** [CMakeFiles/cmTryCompileExec3680345274.dir/CheckIncludeFiles.c.o] Error 1
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec3680345274/fast] Error 2
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+Source:
+/* */
+#include <sys/filio.h>
+
+
+int main(){return 0;}
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1186544198/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1186544198.dir/build.make CMakeFiles/cmTryCompileExec1186544198.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1186544198.dir/TestEndianess.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1186544198.dir/TestEndianess.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec1186544198
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1186544198.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1186544198.dir/TestEndianess.c.o  -o cmTryCompileExec1186544198 -rdynamic 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file Device.h exists failed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2631022/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2631022.dir/build.make CMakeFiles/cmTryCompileExec2631022.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2631022.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -DLINUX -DUNIX -D__LINUX__  -o CMakeFiles/cmTryCompileExec2631022.dir/CheckIncludeFile.cxx.o -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:20: fatal error: Device.h: No such file or directory
+ #include <Device.h>
+                    ^
+compilation terminated.
+make[3]: *** [CMakeFiles/cmTryCompileExec2631022.dir/CheckIncludeFile.cxx.o] Error 1
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec2631022/fast] Error 2
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/videodev.h exist failed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2445660210/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2445660210.dir/build.make CMakeFiles/cmTryCompileExec2445660210.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2445660210.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2445660210.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:28: fatal error: linux/videodev.h: No such file or directory
+ #include <linux/videodev.h>
+                            ^
+compilation terminated.
+make[3]: *** [CMakeFiles/cmTryCompileExec2445660210.dir/CheckIncludeFiles.c.o] Error 1
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec2445660210/fast] Error 2
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+Source:
+/* */
+#include <linux/videodev.h>
+
+
+int main(){return 0;}
+
+Determining if files yarp/os/all.h exist failed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2124727672/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2124727672.dir/build.make CMakeFiles/cmTryCompileExec2124727672.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2124727672.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2124727672.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: fatal error: yarp/os/all.h: No such file or directory
+ #include <yarp/os/all.h>
+                         ^
+compilation terminated.
+make[3]: *** [CMakeFiles/cmTryCompileExec2124727672.dir/CheckIncludeFiles.c.o] Error 1
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec2124727672/fast] Error 2
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+Source:
+/* */
+#include <yarp/os/all.h>
+
+
+int main(){return 0;}
+
+Determining if files yarp/sig/all.h exist failed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1593777948/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1593777948.dir/build.make CMakeFiles/cmTryCompileExec1593777948.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1593777948.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1593777948.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:26: fatal error: yarp/sig/all.h: No such file or directory
+ #include <yarp/sig/all.h>
+                          ^
+compilation terminated.
+make[3]: *** [CMakeFiles/cmTryCompileExec1593777948.dir/CheckIncludeFiles.c.o] Error 1
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec1593777948/fast] Error 2
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+Source:
+/* */
+#include <yarp/sig/all.h>
+
+
+int main(){return 0;}
+
+Determining if files unicap.h exist failed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1576610104/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1576610104.dir/build.make CMakeFiles/cmTryCompileExec1576610104.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1576610104.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1576610104.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: unicap.h: No such file or directory
+ #include <unicap.h>
+                    ^
+compilation terminated.
+make[3]: *** [CMakeFiles/cmTryCompileExec1576610104.dir/CheckIncludeFiles.c.o] Error 1
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec1576610104/fast] Error 2
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+Source:
+/* */
+#include <unicap.h>
+
+
+int main(){return 0;}
+
+Determining if files phidget21.h exist failed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec430415569/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec430415569.dir/build.make CMakeFiles/cmTryCompileExec430415569.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec430415569.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec430415569.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:23: fatal error: phidget21.h: No such file or directory
+ #include <phidget21.h>
+                       ^
+compilation terminated.
+make[3]: *** [CMakeFiles/cmTryCompileExec430415569.dir/CheckIncludeFiles.c.o] Error 1
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec430415569/fast] Error 2
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+Source:
+/* */
+#include <phidget21.h>
+
+
+int main(){return 0;}
+
+Determining if files /include/canlib.h exist failed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1804612909/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1804612909.dir/build.make CMakeFiles/cmTryCompileExec1804612909.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1804612909.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1804612909.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:29: fatal error: /include/canlib.h: No such file or directory
+ #include </include/canlib.h>
+                             ^
+compilation terminated.
+make[3]: *** [CMakeFiles/cmTryCompileExec1804612909.dir/CheckIncludeFiles.c.o] Error 1
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec1804612909/fast] Error 2
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+Source:
+/* */
+#include </include/canlib.h>
+
+
+int main(){return 0;}
+
+Determining if files robotinocom.h exist failed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2253054600/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2253054600.dir/build.make CMakeFiles/cmTryCompileExec2253054600.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2253054600.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2253054600.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: fatal error: robotinocom.h: No such file or directory
+ #include <robotinocom.h>
+                         ^
+compilation terminated.
+make[3]: *** [CMakeFiles/cmTryCompileExec2253054600.dir/CheckIncludeFiles.c.o] Error 1
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec2253054600/fast] Error 2
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+Source:
+/* */
+#include <robotinocom.h>
+
+
+int main(){return 0;}
+
+Determining if files xtimer.h exist failed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1518872391/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1518872391.dir/build.make CMakeFiles/cmTryCompileExec1518872391.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1518872391.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1518872391.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: xtimer.h: No such file or directory
+ #include <xtimer.h>
+                    ^
+compilation terminated.
+make[3]: *** [CMakeFiles/cmTryCompileExec1518872391.dir/CheckIncludeFiles.c.o] Error 1
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec1518872391/fast] Error 2
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+Source:
+/* */
+#include <xtimer.h>
+
+
+int main(){return 0;}
+
+Determining if files xthread.h exist failed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2096361688/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2096361688.dir/build.make CMakeFiles/cmTryCompileExec2096361688.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2096361688.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2096361688.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: fatal error: xthread.h: No such file or directory
+ #include <xthread.h>
+                     ^
+compilation terminated.
+make[3]: *** [CMakeFiles/cmTryCompileExec2096361688.dir/CheckIncludeFiles.c.o] Error 1
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec2096361688/fast] Error 2
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+Source:
+/* */
+#include <xthread.h>
+
+
+int main(){return 0;}
+
+Determining if files libusbSR.h exist failed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3490125111/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3490125111.dir/build.make CMakeFiles/cmTryCompileExec3490125111.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3490125111.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3490125111.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: fatal error: libusbSR.h: No such file or directory
+ #include <libusbSR.h>
+                      ^
+compilation terminated.
+make[3]: *** [CMakeFiles/cmTryCompileExec3490125111.dir/CheckIncludeFiles.c.o] Error 1
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec3490125111/fast] Error 2
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+Source:
+/* */
+#include <libusbSR.h>
+
+
+int main(){return 0;}
+
+Determining if files isense/isense.h exist failed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3911633113/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3911633113.dir/build.make CMakeFiles/cmTryCompileExec3911633113.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3911633113.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3911633113.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:27: fatal error: isense/isense.h: No such file or directory
+ #include <isense/isense.h>
+                           ^
+compilation terminated.
+make[3]: *** [CMakeFiles/cmTryCompileExec3911633113.dir/CheckIncludeFiles.c.o] Error 1
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec3911633113/fast] Error 2
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+Source:
+/* */
+#include <isense/isense.h>
+
+
+int main(){return 0;}
+
+Determining if files sphinx2/ckd_alloc.h exist failed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1149030742/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1149030742.dir/build.make CMakeFiles/cmTryCompileExec1149030742.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1149030742.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1149030742.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:31: fatal error: sphinx2/ckd_alloc.h: No such file or directory
+ #include <sphinx2/ckd_alloc.h>
+                               ^
+compilation terminated.
+make[3]: *** [CMakeFiles/cmTryCompileExec1149030742.dir/CheckIncludeFiles.c.o] Error 1
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec1149030742/fast] Error 2
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+Source:
+/* */
+#include <sphinx2/ckd_alloc.h>
+
+
+int main(){return 0;}
+
+Determining if the include file SVS/svsclass.h exists failed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3460860789/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3460860789.dir/build.make CMakeFiles/cmTryCompileExec3460860789.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3460860789.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3460860789.dir/CheckIncludeFile.cxx.o -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:26: fatal error: SVS/svsclass.h: No such file or directory
+ #include <SVS/svsclass.h>
+                          ^
+compilation terminated.
+make[3]: *** [CMakeFiles/cmTryCompileExec3460860789.dir/CheckIncludeFile.cxx.o] Error 1
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec3460860789/fast] Error 2
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files geos_c.h exist failed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4203215598/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4203215598.dir/build.make CMakeFiles/cmTryCompileExec4203215598.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4203215598.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4203215598.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: geos_c.h: No such file or directory
+ #include <geos_c.h>
+                    ^
+compilation terminated.
+make[3]: *** [CMakeFiles/cmTryCompileExec4203215598.dir/CheckIncludeFiles.c.o] Error 1
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec4203215598/fast] Error 2
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+Source:
+/* */
+#include <geos_c.h>
+
+
+int main(){return 0;}
+
+Determining if files linux/wireless.h exist failed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2442724164/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2442724164.dir/build.make CMakeFiles/cmTryCompileExec2442724164.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2442724164.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2442724164.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+In file included from /usr/include/linux/wireless.h:74:0,
+                 from /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:
+/usr/include/linux/if.h:185:19: error: field ‘ifru_addr’ has incomplete type
+   struct sockaddr ifru_addr;
+                   ^
+/usr/include/linux/if.h:186:19: error: field ‘ifru_dstaddr’ has incomplete type
+   struct sockaddr ifru_dstaddr;
+                   ^
+/usr/include/linux/if.h:187:19: error: field ‘ifru_broadaddr’ has incomplete type
+   struct sockaddr ifru_broadaddr;
+                   ^
+/usr/include/linux/if.h:188:19: error: field ‘ifru_netmask’ has incomplete type
+   struct sockaddr ifru_netmask;
+                   ^
+/usr/include/linux/if.h:189:20: error: field ‘ifru_hwaddr’ has incomplete type
+   struct  sockaddr ifru_hwaddr;
+                    ^
+In file included from /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:0:
+/usr/include/linux/wireless.h:751:19: error: field ‘addr’ has incomplete type
+  struct sockaddr  addr;  /* Source address (hw/mac) */
+                   ^
+/usr/include/linux/wireless.h:777:18: error: field ‘bssid’ has incomplete type
+  struct sockaddr bssid; /* ff:ff:ff:ff:ff:ff for broadcast BSSID or
+                  ^
+/usr/include/linux/wireless.h:835:18: error: field ‘addr’ has incomplete type
+  struct sockaddr addr; /* ff:ff:ff:ff:ff:ff for broadcast/multicast
+                  ^
+/usr/include/linux/wireless.h:848:18: error: field ‘addr’ has incomplete type
+  struct sockaddr addr;
+                  ^
+/usr/include/linux/wireless.h:861:18: error: field ‘bssid’ has incomplete type
+  struct sockaddr bssid;
+                  ^
+/usr/include/linux/wireless.h:869:18: error: field ‘src_addr’ has incomplete type
+  struct sockaddr src_addr;
+                  ^
+/usr/include/linux/wireless.h:880:18: error: field ‘bssid’ has incomplete type
+  struct sockaddr bssid;
+                  ^
+/usr/include/linux/wireless.h:934:18: error: field ‘ap_addr’ has incomplete type
+  struct sockaddr ap_addr; /* Access point address */
+                  ^
+/usr/include/linux/wireless.h:935:18: error: field ‘addr’ has incomplete type
+  struct sockaddr addr;  /* Destination address (hw/mac) */
+                  ^
+make[3]: *** [CMakeFiles/cmTryCompileExec2442724164.dir/CheckIncludeFiles.c.o] Error 1
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec2442724164/fast] Error 2
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+Source:
+/* */
+#include <linux/wireless.h>
+
+
+int main(){return 0;}
+
+Determining if files libparticle.h exist failed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3830019297/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3830019297.dir/build.make CMakeFiles/cmTryCompileExec3830019297.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3830019297.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3830019297.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: fatal error: libparticle.h: No such file or directory
+ #include <libparticle.h>
+                         ^
+compilation terminated.
+make[3]: *** [CMakeFiles/cmTryCompileExec3830019297.dir/CheckIncludeFiles.c.o] Error 1
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec3830019297/fast] Error 2
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+Source:
+/* */
+#include <libparticle.h>
+
+
+int main(){return 0;}
+

@@ -1,0 +1,7 @@
+<launch>
+    <param name="/use_sim_time" value="true" />
+
+    <include file="$(find gazebo_ros)/launch/willowgarage_world.launch" />
+
+    <include file="$(find erratic_description)/launch/erratic_laser_mobile_base.launch" />
+</launch>

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/libplayerjpeg/playerjpeg.c
+config.h
+/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/libplayerjpeg/config.h
+assert.h
+-
+stdio.h
+-
+string.h
+-
+jpeglib.h
+-
+jerror.h
+-
+setjmp.h
+-
+
+config.h
+

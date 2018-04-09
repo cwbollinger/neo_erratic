@@ -1,0 +1,25 @@
+<package>
+    <name>player</name>
+    <version>0.3.3</version>
+    <description>
+        This package contains Player, from the Player Project
+        (http://playerstage.sf.net). This package does not modify Player in any
+        way; it simply provides a convenient way to download and compile the
+        headers and libraries in a way that can be managed by the ROS dependency
+        system.
+    </description>
+
+    <license>LGPL</license>
+    <maintainer email="todo@todo.com">Player</maintainer>
+    <url>http://playerstage.sf.net</url>
+    <author>Brian Gerkey, with contributions from many others. See web page for a full credits list.</author>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <export>
+        <cpp lflags="-Wl,-rpath,${prefix}/player/lib -L${prefix}/player/lib -lplayercore -lplayerxdr -lplayerutils -lplayererror -lplayerdrivers" cflags="-I${prefix}/player/include/player-2.2"/>
+        <doxymaker external="http://playerstage.sourceforge.net/doc/Player-cvs/player"/>
+    </export>
+</package>
+
+

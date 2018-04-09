@@ -1,0 +1,770 @@
+The system is: Linux - 4.4.0-119-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1850626241/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1850626241.dir/build.make CMakeFiles/cmTryCompileExec1850626241.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1850626241.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1850626241.dir/testCCompiler.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1850626241
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1850626241.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1850626241.dir/testCCompiler.c.o  -o cmTryCompileExec1850626241 -rdynamic 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1539258686/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1539258686.dir/build.make CMakeFiles/cmTryCompileExec1539258686.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1539258686.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1539258686.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1539258686
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1539258686.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1539258686.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1539258686 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.4' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.4) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1539258686' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1539258686 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec1539258686.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec1539258686/fast"]
+  ignore line: [make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1539258686.dir/build.make CMakeFiles/cmTryCompileExec1539258686.dir/build]
+  ignore line: [make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1539258686.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1539258686.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1539258686]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1539258686.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1539258686.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1539258686 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.4' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.4) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1539258686' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1539258686 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec1539258686.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1539258686] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec1539258686.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1848965590/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1848965590.dir/build.make CMakeFiles/cmTryCompileExec1848965590.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1848965590.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1848965590.dir/testCXXCompiler.cxx.o -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1848965590
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1848965590.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec1848965590.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1848965590 -rdynamic 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec287335815/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec287335815.dir/build.make CMakeFiles/cmTryCompileExec287335815.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec287335815.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec287335815.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec287335815
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec287335815.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec287335815.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec287335815 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.4' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.4) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec287335815' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec287335815 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec287335815.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec287335815/fast"]
+  ignore line: [make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec287335815.dir/build.make CMakeFiles/cmTryCompileExec287335815.dir/build]
+  ignore line: [make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec287335815.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec287335815.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec287335815]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec287335815.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec287335815.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec287335815 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.4' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.4) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec287335815' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec287335815 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec287335815.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec287335815] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec287335815.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the function getaddrinfo exists passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3166709342/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3166709342.dir/build.make CMakeFiles/cmTryCompileExec3166709342.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3166709342.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getaddrinfo   -o CMakeFiles/cmTryCompileExec3166709342.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3166709342
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3166709342.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getaddrinfo    CMakeFiles/cmTryCompileExec3166709342.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3166709342 -rdynamic 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function xdr_free exists passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1249140187/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1249140187.dir/build.make CMakeFiles/cmTryCompileExec1249140187.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1249140187.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=xdr_free   -o CMakeFiles/cmTryCompileExec1249140187.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1249140187
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1249140187.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=xdr_free    CMakeFiles/cmTryCompileExec1249140187.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1249140187 -rdynamic 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function xdr_longlong_t exists passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1233725691/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1233725691.dir/build.make CMakeFiles/cmTryCompileExec1233725691.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1233725691.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=xdr_longlong_t   -o CMakeFiles/cmTryCompileExec1233725691.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1233725691
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1233725691.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=xdr_longlong_t    CMakeFiles/cmTryCompileExec1233725691.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1233725691 -rdynamic 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function cfmakeraw exists passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1327541005/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1327541005.dir/build.make CMakeFiles/cmTryCompileExec1327541005.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1327541005.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cfmakeraw   -o CMakeFiles/cmTryCompileExec1327541005.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1327541005
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1327541005.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cfmakeraw    CMakeFiles/cmTryCompileExec1327541005.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1327541005 -rdynamic 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function dirname exists passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec33744779/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec33744779.dir/build.make CMakeFiles/cmTryCompileExec33744779.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec33744779.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dirname   -o CMakeFiles/cmTryCompileExec33744779.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec33744779
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec33744779.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dirname    CMakeFiles/cmTryCompileExec33744779.dir/CheckFunctionExists.c.o  -o cmTryCompileExec33744779 -rdynamic 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/joystick.h exist passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec452430338/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec452430338.dir/build.make CMakeFiles/cmTryCompileExec452430338.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec452430338.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec452430338.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec452430338
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec452430338.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec452430338.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec452430338 -rdynamic 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function poll exists passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec448160252/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec448160252.dir/build.make CMakeFiles/cmTryCompileExec448160252.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec448160252.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=poll   -o CMakeFiles/cmTryCompileExec448160252.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec448160252
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec448160252.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=poll    CMakeFiles/cmTryCompileExec448160252.dir/CheckFunctionExists.c.o  -o cmTryCompileExec448160252 -rdynamic 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec733487784/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec733487784.dir/build.make CMakeFiles/cmTryCompileExec733487784.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec733487784.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec733487784.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec733487784
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec733487784.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec733487784.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec733487784 -rdynamic 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec983071623/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec983071623.dir/build.make CMakeFiles/cmTryCompileExec983071623.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec983071623.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec983071623.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec983071623
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec983071623.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec983071623.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec983071623 -rdynamic 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function lt_dlopenext exists in the ltdl passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1143866649/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1143866649.dir/build.make CMakeFiles/cmTryCompileExec1143866649.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1143866649.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lt_dlopenext   -o CMakeFiles/cmTryCompileExec1143866649.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1143866649
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1143866649.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lt_dlopenext    CMakeFiles/cmTryCompileExec1143866649.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1143866649 -rdynamic -lltdl -ldl 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function round exists passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2969345499/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2969345499.dir/build.make CMakeFiles/cmTryCompileExec2969345499.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2969345499.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=round -I/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/math.h    -o CMakeFiles/cmTryCompileExec2969345499.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘round’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec2969345499
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2969345499.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=round    CMakeFiles/cmTryCompileExec2969345499.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2969345499 -rdynamic -lm 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function jpeg_read_header exists in the jpeg passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2297630064/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2297630064.dir/build.make CMakeFiles/cmTryCompileExec2297630064.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2297630064.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=jpeg_read_header   -o CMakeFiles/cmTryCompileExec2297630064.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2297630064
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2297630064.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=jpeg_read_header    CMakeFiles/cmTryCompileExec2297630064.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2297630064 -rdynamic -ljpeg 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdio.h;jpeglib.h exist passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4291208662/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4291208662.dir/build.make CMakeFiles/cmTryCompileExec4291208662.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4291208662.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4291208662.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4291208662
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4291208662.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4291208662.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4291208662 -rdynamic 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function compressBound exists passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3198731387/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3198731387.dir/build.make CMakeFiles/cmTryCompileExec3198731387.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3198731387.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=compressBound -I/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/zlib.h    -o CMakeFiles/cmTryCompileExec3198731387.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3198731387
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3198731387.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=compressBound    CMakeFiles/cmTryCompileExec3198731387.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3198731387 -rdynamic -lz 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function compress2 exists in the z passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1677376432/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1677376432.dir/build.make CMakeFiles/cmTryCompileExec1677376432.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1677376432.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=compress2   -o CMakeFiles/cmTryCompileExec1677376432.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1677376432
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1677376432.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=compress2    CMakeFiles/cmTryCompileExec1677376432.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1677376432 -rdynamic -lz 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files zlib.h exist passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1006008705/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1006008705.dir/build.make CMakeFiles/cmTryCompileExec1006008705.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1006008705.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1006008705.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1006008705
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1006008705.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1006008705.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1006008705 -rdynamic 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1199786067/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1199786067.dir/build.make CMakeFiles/cmTryCompileExec1199786067.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1199786067.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTryCompileExec1199786067.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1199786067
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1199786067.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTryCompileExec1199786067.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1199786067 -rdynamic -lrt 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2355284284/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2355284284.dir/build.make CMakeFiles/cmTryCompileExec2355284284.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2355284284.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTryCompileExec2355284284.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2355284284
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2355284284.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTryCompileExec2355284284.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2355284284 -rdynamic -lrt 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2094132866/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2094132866.dir/build.make CMakeFiles/cmTryCompileExec2094132866.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2094132866.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2094132866.dir/CheckIncludeFile.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2094132866
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2094132866.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2094132866.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2094132866 -rdynamic 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec962367640/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec962367640.dir/build.make CMakeFiles/cmTryCompileExec962367640.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec962367640.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec962367640.dir/CheckIncludeFile.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec962367640
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec962367640.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec962367640.dir/CheckIncludeFile.c.o  -o cmTryCompileExec962367640 -rdynamic 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1045530362/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1045530362.dir/build.make CMakeFiles/cmTryCompileExec1045530362.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1045530362.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1045530362.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTryCompileExec1045530362
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1045530362.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1045530362.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTryCompileExec1045530362 -rdynamic 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files alsa/asoundlib.h exist passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2950702413/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2950702413.dir/build.make CMakeFiles/cmTryCompileExec2950702413.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2950702413.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2950702413.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2950702413
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2950702413.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2950702413.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2950702413 -rdynamic 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdio.h;jpeglib.h exist passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3404596017/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3404596017.dir/build.make CMakeFiles/cmTryCompileExec3404596017.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3404596017.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3404596017.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3404596017
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3404596017.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3404596017.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3404596017 -rdynamic 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/time.h;linux/types.h;linux/videodev2.h exist passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2921061747/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2921061747.dir/build.make CMakeFiles/cmTryCompileExec2921061747.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2921061747.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2921061747.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2921061747
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2921061747.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2921061747.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2921061747 -rdynamic 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files usb.h exist passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec788693016/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec788693016.dir/build.make CMakeFiles/cmTryCompileExec788693016.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec788693016.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec788693016.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec788693016
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec788693016.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec788693016.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec788693016 -rdynamic 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/joystick.h exist passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1035671107/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1035671107.dir/build.make CMakeFiles/cmTryCompileExec1035671107.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1035671107.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1035671107.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1035671107
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1035671107.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1035671107.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1035671107 -rdynamic 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/serial.h exist passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec567927942/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec567927942.dir/build.make CMakeFiles/cmTryCompileExec567927942.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec567927942.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec567927942.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec567927942
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec567927942.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec567927942.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec567927942 -rdynamic 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files asm/ioctls.h exist passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1171617627/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1171617627.dir/build.make CMakeFiles/cmTryCompileExec1171617627.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1171617627.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1171617627.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1171617627
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1171617627.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1171617627.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1171617627 -rdynamic 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/serial.h exist passed with the following output:
+Change Dir: /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3476522444/fast"
+make[2]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3476522444.dir/build.make CMakeFiles/cmTryCompileExec3476522444.dir/build
+make[3]: Entering directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3476522444.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3476522444.dir/CheckIncludeFiles.c.o   -c /home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3476522444
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3476522444.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3476522444.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3476522444 -rdynamic 
+make[3]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/bollingc/catkin_ws/src/erratic_robot/player/build/player-svn/build/CMakeFiles/CMakeTmp'
+
+

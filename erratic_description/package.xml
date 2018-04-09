@@ -1,0 +1,37 @@
+<package>
+    <name>erratic_description</name>
+    <version>0.3.3</version>
+    <description>
+        URDF description files for the ERA-MOBI (Erratic) mobile robot base from Videre.
+    </description>
+
+    <maintainer email="todo@todo.com">Antons Rebguns</maintainer>
+    <license>BSD</license>
+    <!-- <review status="unreviewed" notes=""/> -->
+    <url>http://ros.org/wiki/erratic_description</url>
+    <author>Antons Rebguns</author>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <build_depend>convex_decomposition</build_depend>
+    <build_depend>ivcon</build_depend>
+
+    <run_depend>convex_decomposition</run_depend>
+    <run_depend>ivcon</run_depend>
+    <run_depend>urdf</run_depend>
+    <run_depend>xacro</run_depend>
+    <run_depend>gazebo_ros</run_depend>
+    <run_depend>fake_localization</run_depend>
+    <run_depend>map_server</run_depend>
+    <run_depend>gazebo_ros_pkgs</run_depend>
+    <run_depend>robot_state_publisher</run_depend>
+    <run_depend>laser_filters</run_depend>
+    <run_depend>robot_self_filter</run_depend>
+    <run_depend>pr2_gazebo_plugins</run_depend>
+
+    <export>
+        <gazebo gazebo_media_path="${prefix}" />
+    </export>
+</package>
+
+

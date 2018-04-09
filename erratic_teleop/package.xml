@@ -1,0 +1,25 @@
+<package>
+    <name>erratic_teleop</name>
+    <version>0.3.3</version>
+    <description>
+        This package contains keyboard teleoperation node used to drive the
+        Erratic robot.
+    </description>
+
+    <maintainer email="todo@todo.com">Antons Rebguns</maintainer>
+    <license>BSD</license>
+    <!-- <review status="unreviewed" notes=""/> -->
+    <url>http://ros.org/wiki/erratic_teleop</url>
+    <author>Antons Rebguns</author>
+
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <build_depend>roscpp</build_depend>
+    <build_depend>geometry_msgs</build_depend>
+
+    <run_depend>roscpp</run_depend>
+    <run_depend>geometry_msgs</run_depend>
+</package>
+
+

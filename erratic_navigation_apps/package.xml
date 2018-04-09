@@ -1,0 +1,23 @@
+<package>
+    <name>erratic_navigation_apps</name>
+    <version>0.3.3</version>
+    <description>
+        erratic_navigation_apps
+    </description>
+
+    <maintainer email="todo@todo.com">Antons Rebguns</maintainer>
+    <license>BSD</license>
+    <!-- <review status="unreviewed" notes=""/> -->
+    <url>http://ros.org/wiki/erratic_navigation_apps</url>
+    <author>Antons Rebguns</author>
+
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <run_depend>map_server</run_depend>
+    <run_depend>costmap_2d</run_depend>
+    <run_depend>erratic_navigation</run_depend>
+    <run_depend>erratic_description</run_depend>
+</package>
+
+
