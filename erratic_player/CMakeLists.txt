@@ -25,4 +25,5 @@ set(ROS_BUILD_TYPE RelWithDebInfo)
 
 
 add_executable(erratic_player src/erratic_player.cpp)
+add_dependencies(erratic_player erratic_player_gencpp)
 target_link_libraries(erratic_player ${catkin_LIBRARIES})
